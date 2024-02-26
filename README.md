@@ -1,9 +1,8 @@
-'1 2 3' (toate)
-
 Student: Sindrilaru Catalina-Maria
+
 Grupa: 332CA
 
-------------Tema 1 - RL---------------------------------------
+# Tema 1 - RL
 
 Codul initial pentru task-urile 1 si 2 este lasat comentat la finalul
 fisierului switch.py, pentru a se vedea codul si inainte de adaugarea
@@ -13,8 +12,8 @@ Explicatii:
 
 Inainte de adaugarea stp-ului, pentru implementarea vlan-urilor, am 
 ales sa folosesc un dictionar pentru tabela mac, in care cheia sa
-fie adresa mac, iar valoarea numarul interfetei corespunzatoare (ex: 0,1,2,3
-- dupa caz). Totodata, am folosit un dictionar numit type_interfaces,
+fie adresa mac, iar valoarea numarul interfetei corespunzatoare.
+Totodata, am folosit un dictionar numit type_interfaces,
 pe care l-am folosit pentru citirea din fisierul de configuratie
 corespunzator fiecarui switch, in care cheia este reprezentata de numele
 interfetei (ex: r-0, r-1, rr-0-1), iar valoarea de numele vlan-ului aferent
